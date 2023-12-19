@@ -9,5 +9,6 @@
         public int Rating { get; set; }
         public Reviewer Reviwer { get; set; }
         public Pokemon Pokemon { get; set; }
+        public Reviewer Reviewer { get; internal set; }
     }
 }

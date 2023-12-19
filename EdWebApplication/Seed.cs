@@ -8,7 +8,7 @@ namespace EdWebApplication
         private readonly DataContext dataContext;
         public Seed(DataContext context)
         {
-            this.dataContext = context;
+            dataContext = context;
         }
         public void SeedDataContext()
         {
