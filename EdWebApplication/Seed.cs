@@ -3,7 +3,7 @@ using EdWebApplication.Models;
 
 namespace EdWebApplication
 {
-    public class Seed
+    public class Seed //کار کلاس seed مقدار دهی اولیه entity هامون هستش
     {
         private readonly DataContext dataContext;
         public Seed(DataContext context)
